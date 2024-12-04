@@ -1,7 +1,5 @@
 install:
-	pip install --upgrade pip &&\
-		pip install -r requirements.txt
-
+	pip install -e .[dev]
 test:
 	python -m pytest tests
 
